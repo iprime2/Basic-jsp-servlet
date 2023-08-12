@@ -13,8 +13,8 @@
 <hr class="mt-3">
 <p class="p-3 bg-red-400 mt-2">${error}</p>
 
-<p class="text-md lg:text-xl p-2 bg-sky-400 mt-2">Hey ${firstName} ${lastName} , Welcome to JSP</p>
-<p>Your age is ${age}</p>
+<p class="text-md lg:text-xl p-2 bg-sky-400 mt-2">Hey ${person.firstName} ${person.lastName} , Welcome to JSP</p>
+<p>Your age is ${person.age}</p>
 </div>
 </body>
 </html>
